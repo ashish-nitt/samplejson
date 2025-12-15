@@ -1,5 +1,4 @@
 {
-"dialPlan": {
   "verbs": [
       {
         "type": "PLAY",
@@ -31,5 +30,4 @@
         "bargeIn": false
       }
     ]
-  }
 }
