@@ -1,33 +1,35 @@
 {
+"dialPlan": {
   "verbs": [
-    {
-      "type": "PLAY",
-      "fileURL": "https://cdn12.waymore.io/s/pTXaaw7KDLcjBnt/download/1.wav",
-      "bargeIn": false
-    },
-    {
-      "type": "COLLECT",
-      "eventUrl": "https://YOUR-VERCEL-APP.vercel.app/api/voice/hooks/collect/opt-out?attempt=1",
-      "submitOnHash": true,
-      "maxDigits": 30
-    },
-    {
-      "type": "PAUSE",
-      "duration": 7
-    },
-    {
-      "type": "PLAY",
-      "fileURL": "https://cdn12.waymore.io/s/yWCEeCTLFK5dQ7Y/download/4.wav",
-      "bargeIn": false
-    },
-    {
-      "type": "PAUSE",
-      "duration": 7
-    },
-    {
-      "type": "PLAY",
-      "fileURL": "https://cdn12.waymore.io/s/NcB6E9Deaecnp94/download/6.wav",
-      "bargeIn": false
-    }
-  ]
+      {
+        "type": "PLAY",
+        "fileURL": "https://cdn12.waymore.io/s/pTXaaw7KDLcjBnt/download/1.wav",
+        "bargeIn": false
+      },
+      {
+        "type": "COLLECT",
+        "eventUrl": "https://YOUR-VERCEL-APP.vercel.app/api/voice/hooks/collect/opt-out?attempt=1",
+        "submitOnHash": true,
+        "maxDigits": 30
+      },
+      {
+        "type": "PAUSE",
+        "duration": 7
+      },
+      {
+        "type": "PLAY",
+        "fileURL": "https://cdn12.waymore.io/s/yWCEeCTLFK5dQ7Y/download/4.wav",
+        "bargeIn": false
+      },
+      {
+        "type": "PAUSE",
+        "duration": 7
+      },
+      {
+        "type": "PLAY",
+        "fileURL": "https://cdn12.waymore.io/s/NcB6E9Deaecnp94/download/6.wav",
+        "bargeIn": false
+      }
+    ]
+  }
 }
